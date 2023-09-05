@@ -14,5 +14,15 @@ DecisionTreeClassifier es un algoritmo utilizado para el aprendizaje supervisado
 ## Obtencion del dataset
 De este link se obtuvo el dataset "diabetes_dataset.csv": https://www.kaggle.com/datasets/saurabh00007/diabetescsv 
 
+## Descripcion del dataset
+El set de datos se compone por 9 columnas y 768 filas. Los nombres de las columnas son los siguientes:
+- Pregnancies, muestra el numero de embarazos que el individuo a tenido
+- Glucose, muestra el nivel de glucosa en la sangre
+- BloodPressure, muestra la presion en la sangre
+- SkinThickness, muestra lo grueso que puede estar la piel
+- Insulin, muestra el nivel de insulina 
+- BMI, muestra el porcentaje de grasa
+- DiabetesPedigreeFunction
+- Age, muestra la edad
+- Outcome, muestra el resultado 
 
-Recordar hacer el README
