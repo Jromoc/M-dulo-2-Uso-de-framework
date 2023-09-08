@@ -24,5 +24,7 @@ El set de datos se compone por 9 columnas y 768 filas. Los nombres de las column
 - BMI, muestra el porcentaje de grasa
 - DiabetesPedigreeFunction
 - Age, muestra la edad
-- Outcome, muestra el resultado 
+- Outcome, muestra el resultado de si tiene diabtetes o no
 
+## Arboles
+Se craron 3 arboles
