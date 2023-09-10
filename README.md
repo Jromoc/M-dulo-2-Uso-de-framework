@@ -1,5 +1,8 @@
 # Modulo-2-Uso-de-framework
 
+## Descripcion del problema
+El objetivo de este problema es conocer si una persona puede ser catalogada o no con diabetes, con esto se entiende que se tiene un problema a resolver con clasificacion.
+
 ## Descripcion del modelo
 DecisionTreeClassifier es un algoritmo utilizado para el aprendizaje supervisado, el cual se usa para clasificar una serie de datos y poder predecir que rumbo tomaran los datos con respecto a ciertos parametros. La estructura de este modelo se divide en: 
 - El arbol de decisiones, donde los datos que se clasificaran tendran una serie de atributos o etiquetas.
@@ -26,5 +29,19 @@ El set de datos se compone por 9 columnas y 768 filas. Los nombres de las column
 - Age, muestra la edad
 - Outcome, muestra el resultado de si tiene diabtetes o no
 
+Las columnas Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, Age y Outcome son de tipo int.
+
+Las columnas BMI y DiabetesPedigreeFunction son de tipo float.
+
+
 ## Arboles
-Se craron 3 arboles
+Se craron 3 arboles para el entrenamiento y pruebas, cada arbol con parametros distintos con el objetivo de obtener un mejor resultado.
+
+myTree1 -- criterion = "entropy" , max_depth = 4
+El resultado con estos parametros dio un "score" de 71.43%
+
+myTree2 -- criterion = "gini" , max_depth = 6
+El resultado con estos parametros dio un "score" de 79.87%
+
+myTree3 -- criterion = "entropy" , max_depth = 6
+El resultado con estos parametros dio un "score" de 78.57%
